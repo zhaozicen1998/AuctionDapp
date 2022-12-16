@@ -1,2 +1,11 @@
 # AuctionDapp
-去中心化的拍卖系统
+## Preparation:
+
+1. Download and install:
+   - NodeJS
+   - Ganache
+   - MetaMask
+   - IPFS (https://dist.ipfs.tech/#go-ipfs)
+   - MongoDB
+
+
