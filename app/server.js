@@ -1,3 +1,6 @@
+// This is the back-end server. It is responsible for listening to events on the blockchain.
+// When a new item is found to be added, it synchronizes the data from the blockchain to our local database.
+
 var auction_platform_artifacts = require('../build/contracts/AuctionPlatform.json')
 var Web3 = require('web3')
 var Contract = require('web3-eth-contract');
