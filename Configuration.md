@@ -1,4 +1,4 @@
-### Install Necessary software: 
+# Install Necessary software: 
 
 1. MongoDB (https://www.mongodb.com/try/download/community)
    - set environment variables
@@ -24,7 +24,7 @@
 
 
 
-### Install  plugins (after you already clone the repository)
+# Install  plugins (after you already clone the repository)
 
 1.  cd app
 2.  npm install
@@ -32,7 +32,7 @@
 
 
 
-### Configuration
+# Configuration
 
 1. Start the ipfs process 
 
@@ -76,7 +76,7 @@
 
 
 
-### Cautions
+# Cautions
 
 1. If you want to redeploy the contract, don't forget to delete the data that already exists in the database. (Delete auction_dapp database)
 1. Make sure the front-end and back-end servers are shut down before redeploying. The redeployment steps will start from **step 4**.
