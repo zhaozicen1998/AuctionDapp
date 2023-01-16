@@ -39,8 +39,8 @@ app.get('/products', function (req, res) {
     let query = { productStatus: { $eq: 0 } };
 
     // current_time < auctionEndTime: bidding
-    // auctionEndTime < current_time < auctionEndTime + 600: revealing
-    // current_time > auctionEndTime + 600: finalize
+    // auctionEndTime < current_time < auctionEndTime + 120: revealing
+    // current_time > auctionEndTime + 120: finalize
     if (Object.keys(req.query).length === 0) {
         query['auctionEndTime'] = { $gt: current_time };
     } else if (req.query.category !== undefined) {
